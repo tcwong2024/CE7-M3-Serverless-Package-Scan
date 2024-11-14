@@ -10,7 +10,7 @@ data "archive_file" "lambda" {
 
 resource "aws_lambda_function" "own_lambda" {
   function_name    = var.lambda_function_name
-  handler          = "wtc-lambda_function.lambda_handler"
+  handler          = "lambda_function.lambda_handler"
   runtime          = "nodejs14.x"
   role             = aws_iam_role.iam_for_lambda.arn
   filename         = data.archive_file.lambda.output_path         # Adjust the path
