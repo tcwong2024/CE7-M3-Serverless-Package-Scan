@@ -1,0 +1,19 @@
+{
+  "name": "serverless-package-scan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcwong2024/CE7-M3-Serverless-Package-Scan.git"
+  },
+  "author": "luqman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcwong2024/CE7-M3-Serverless-Package-Scan/issues"
+  },
+  "homepage": "https://github.com/tcwong2024/CE7-M3-Serverless-Package-Scan#readme"
+}
